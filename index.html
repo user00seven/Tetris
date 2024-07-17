@@ -7,12 +7,31 @@
         <title>Tetris</title>
     </head>
     <body>
-        <h1 id="head">Tetris</h1>
         <div class="container">
+          <div class="head">
+        <h1 class="title">
+          <span style="color: red;">T</span>
+          <span style="color: yellow;">e</span>
+          <span style="color: blue;">t</span>
+          <span style="color: green;">r</span>
+          <span style="color: purple;">i</span>
+          <span style="color: orange;">s</span>
+        </h1>
+        <div class="controls">
+          <p>controls are:</p>
+          <p>left : ← </p>
+          <p>right: → </p>
+          <p>top: ↑ </p>
+          <p>button: ↓</p>
+        </div>
+          </div>
+ 
             <div class="grid"></div>
             <div class="section">
                 <div class="mini-grid"></div>
+                <div class="score-board">
                 <h3>Score: <span id="score">0</span></h3>
+                </div>
 
                 <button class="button-9" role="button">Start/Pause</button>
             </div>
